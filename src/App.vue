@@ -1,8 +1,8 @@
 <template>
   <div class="min-h-screen bg-gray-100">
     <nav class="bg-white shadow">
-      <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-        <router-link to="/" class="text-blue-500 hover:text-blue-600">AddSubTicket</router-link>
+      <div class="container mx-auto px-6 py-3 flex justify-start items-center">
+        <router-link to="/" class="text-blue-500 hover:text-blue-600 mr-6">AddSubTicket</router-link>
         <router-link to="/test-connection" class="text-blue-500 hover:text-blue-600">TestConnection</router-link>
       </div>
     </nav>
